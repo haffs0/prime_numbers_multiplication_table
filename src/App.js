@@ -80,7 +80,7 @@ const App = () => {
       <div style={{marginBottom: '20px',}}>
         <form onSubmit={handleOnSubmit}>
           <label>Please enter the number of prime numbers you want to form a multiplication table with</label><br/>
-          <input type="text" value={inputValue} onChange={(e) => setInputValue(e.target.value)}/>
+          <input type="number" value={inputValue} onChange={(e) => setInputValue(e.target.value)}/>
           <input type="submit" value="Result"/>
         </form>
       </div>
